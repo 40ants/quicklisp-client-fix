@@ -1,5 +1,7 @@
+#+quicklisp
 (in-package #:quicklisp)
 
+#+quicklisp
 (defun compute-load-strategy (name)
   (setf name (string-downcase name))
   (let ((asdf-systems nil)
