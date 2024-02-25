@@ -1,3 +1,4 @@
+#+quicklisp
 (in-package #:quicklisp)
 
 #+quicklisp
