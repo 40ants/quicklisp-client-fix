@@ -110,7 +110,7 @@ If you want to autoload the patch, do two things:
                                       :name "quicklisp-fix"
                                       :type "lisp")))
      (let ((quicklisp-found #+quicklisp t
-   			 #-quicklisp nil))
+                            #-quicklisp nil))
        (cond
          ((not quicklisp-found)
           (warn "Quicklisp is not available, skipping fix loading.~%"))
